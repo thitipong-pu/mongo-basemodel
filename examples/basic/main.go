@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	basemodel "github.com/yourusername/mongo-basemodel"
+	basemodel "github.com/thitipong-pu/mongo-basemodel"
 )
 
 // User struct that embeds BaseCollection

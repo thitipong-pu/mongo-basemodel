@@ -11,7 +11,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 
-	basemodel "github.com/yourusername/mongo-basemodel"
+	basemodel "github.com/thitipong-pu/mongo-basemodel"
 )
 
 // User struct with BaseCollection embedded

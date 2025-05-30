@@ -7,7 +7,8 @@ Go library ที่ให้ base model สำหรับ MongoDB collections 
 - **BaseCollection struct** พร้อม common fields:
   - `_id` (ObjectID)
   - `created_at` (timestamp)
-  - `updated_at` (timestamp สำหรับ soft delete)
+  - `updated_at` (timestamp)
+  - `deleted_at` (timestamp สำหรับ soft delete)
 
 - **Built-in methods**:
   - `SetInsertMeta()` - ตั้งค่า metadata สำหรับการ insert
@@ -19,7 +20,7 @@ Go library ที่ให้ base model สำหรับ MongoDB collections 
 ## Installation
 
 ```bash
-go get github.com/yourusername/mongo-basemodel
+go get github.com/thitipong-pu/mongo-basemodel
 ```
 
 ## Usage
@@ -33,7 +34,7 @@ import (
     "fmt"
     "time"
     
-    "github.com/yourusername/mongo-basemodel"
+    "github.com/thitipong-pu/mongo-basemodel"
 )
 
 // สร้าง struct ของคุณโดย embed BaseCollection
@@ -79,7 +80,7 @@ import (
     "go.mongodb.org/mongo-driver/mongo/options"
     "go.mongodb.org/mongo-driver/bson"
     
-    "github.com/yourusername/mongo-basemodel"
+    "github.com/thitipong-pu/mongo-basemodel"
 )
 
 type Product struct {
