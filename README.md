@@ -319,6 +319,12 @@ func (r *ProductRepository) FindByID(id string) (*Product, error) {
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+## Credits
+
+This project was developed by:
+- **Mr. Thitipong Punprom**
+- **Mr. Kittipong Kraisit**
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details. 
