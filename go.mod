@@ -1,4 +1,4 @@
-module github.com/yourusername/mongo-basemodel
+module github.com/thitipong-pu/mongo-basemodel
 
 go 1.21
 
